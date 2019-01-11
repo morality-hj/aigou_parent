@@ -54,7 +54,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
+                <!--<configuration>
                     <mainClass>org.morality.Plat_Service_8001</mainClass>
                     <layout>ZIP</layout>
                 </configuration>
@@ -64,7 +64,7 @@
                             <goal>repackage</goal>
                         </goals>
                     </execution>
-                </executions>
+                </executions>-->
             </plugin>
         </plugins>
     </build>
